@@ -15,6 +15,29 @@ Download the checkponit of stable diffusion and depth estimation model, and put 
 ### 1.2 Runing
 Run infer.py to get the fancy video. 
 
+### 1.3 Scripts
+We also provide a simple scripts to create the video.
+
+```python
+from pipeline import VideoStableDiffusionPipeline, save_video
+
+device = "cuda"
+models_path = './models'
+
+# load model
+pipe = VideoStableDiffusionPipeline.from_pretrained(models_path)
+pipe= pipe.to(device)
+
+# run pipeline in inference
+prompt = "A painting of a squirrel eating a burger"
+move = {'x': 0.5, 'y':0, 'z':0} # move for 3-d
+video = pipe([prompt], move=move)
+
+# save video
+save_video("squirrel.png", video)
+```
+
+
 
 ## 2.Examples
 
