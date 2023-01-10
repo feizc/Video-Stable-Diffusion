@@ -29,7 +29,7 @@ pipe = VideoStableDiffusionPipeline.from_pretrained(models_path)
 pipe= pipe.to(device)
 
 # run pipeline in inference
-prompt = "A painting of a squirrel eating a burger"
+prompt = "A beautiful painting of street and people, spring festival"
 move = {'x': 0.5, 'y':0, 'z':0} # move for 3-d
 num_images = 50 # generated number of images in video
 video = pipe([prompt], move=move, num_images=num_images)
