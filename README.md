@@ -5,7 +5,8 @@ Instead of image latents interpolation, we use depth estimation to limit the con
 ## 1.How to use? 
 
 This repository compatible with mostly environment equipped with transformers, and can be runned locally with pre-set ckpt.
-We provide mac and linux environement that can run our method fluently as example.
+
+In particular, we provide mac and linux environement that can run our method fluently as example.
 
 
 ### 1.1 Preparation
