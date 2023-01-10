@@ -5,9 +5,9 @@ Specifically, instead of image latents interpolation, we use depth estimation to
 
 ## 1.How to use? 
 
-This repository compatible with mostly environment equipped with transformers, and can be runned locally with pre-set ckpt.
+This repository compatible with mostly environment equipped with [transformers](https://github.com/huggingface/transformers), and can be runned locally with pre-set ckpt.
 
-In particular, we provide mac and linux environement that can run our method fluently as example.
+In particular, we provide mac and linux environement that can run video generation method fluently as reference.
 
 
 ### 1.1 Preparation
@@ -38,6 +38,7 @@ num_images = 50 # generated number of images in video
 pipe([prompt], move=move, num_images=num_images)
 ```
 
+As the results contains a sequence of images, you can use the script ``` video_formation.py``` to transform images to a video formation. 
 
 
 ## 2.Examples
