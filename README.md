@@ -31,7 +31,8 @@ pipe= pipe.to(device)
 # run pipeline in inference
 prompt = "A painting of a squirrel eating a burger"
 move = {'x': 0.5, 'y':0, 'z':0} # move for 3-d
-video = pipe([prompt], move=move)
+num_images = 50 # generated number of images in video
+video = pipe([prompt], move=move, num_images=num_images)
 
 # save video
 save_video("./outputs", video)
