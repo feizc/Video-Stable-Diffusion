@@ -11,7 +11,7 @@ In particular, we provide mac and linux environement that can run our method flu
 
 
 ### 1.1 Preparation
-Download the checkponit of stable diffusion and depth estimation model, and put them to the path ```.\models```.
+Download the checkponit of stable diffusion and depth estimation model following [instruments](https://github.com/feizc/Video-Stable-Diffusion/tree/main/models), and put them to the path ```.\models```.
 
 ### 1.2 Runing command
 Run infer.py to get the fancy video. 
