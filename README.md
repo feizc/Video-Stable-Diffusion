@@ -3,7 +3,7 @@ Generate consistent videos with stable diffusion.
 
 Instead of image latents interpolation, we use depth estimation to limit the content structure and inpainting of stable diffusion to make video keep moving.
 
-## 1.How to use? 
+## 1.How it Works? 
 
 This repository compatible with mostly environment equipped with [transformers](https://github.com/huggingface/transformers), and can be runned locally with pre-set ckpt.
 
