@@ -33,12 +33,13 @@ pipe = VideoStableDiffusion(models_path=models_path, output_path=output_path)
 # run pipeline in inference
 prompt = "A beautiful painting of street and people, spring festival"
 move = {'x': 0.5, 'y':0, 'z':0} # move speed for 3-d direction
-num_images = 50 # generated number of images in video
+num_images = 50 # generated number of sequential images in video
 
 pipe(prompt, move=move, num_images=num_images)
 ```
 
 As the results contains a sequence of images, you can use the script ```video_formation.py``` to transform images to a video formation. 
+Note that fps is used to determine the updation ratio. 
 
 
 ## 2.Examples
