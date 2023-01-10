@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-
+from geffnet import tf_efficientnet_b5_ap
 from .miniViT import mViT
 
 
@@ -123,7 +123,8 @@ class UnetAdaptiveBins(nn.Module):
         basemodel_name = 'tf_efficientnet_b5_ap'
 
         print('Loading base model ()...'.format(basemodel_name), end='')
-        basemodel = torch.hub.load('rwightman/gen-efficientnet-pytorch', basemodel_name, pretrained=True)
+        basemodel = tf_efficientnet_b5_ap(pretrained=False)
+        # basemodel = torch.hub.load('rwightman/gen-efficientnet-pytorch', basemodel_name, pretrained=True)
         print('Done.')
 
         # Remove last layer
