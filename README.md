@@ -12,10 +12,10 @@ In particular, we provide mac and linux environement that can run our method flu
 ### 1.1 Preparation
 Download the checkponit of stable diffusion and depth estimation model, and put them to the path: models.
 
-### 1.2 Runing
+### 1.2 Runing command
 Run infer.py to get the fancy video. 
 
-### 1.3 Scripts
+### 1.3 Running scripts
 We also provide a simple scripts to create the video.
 
 ```python
