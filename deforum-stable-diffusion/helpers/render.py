@@ -129,6 +129,7 @@ def render_animation(args, anim_args, animation_prompts, root):
     print(f"Saving animation frames to {args.outdir}")
 
     # save settings for the batch
+    '''
     settings_filename = os.path.join(args.outdir, f"{args.timestring}_settings.txt")
     with open(settings_filename, "w+", encoding="utf-8") as f:
         s = {**dict(args.__dict__), **dict(anim_args.__dict__)}
@@ -139,7 +140,7 @@ def render_animation(args, anim_args, animation_prompts, root):
         del s['get_output_folder']
         #print(s)
         json.dump(s, f, ensure_ascii=False, indent=4)
-        
+    '''    
     # resume from timestring
     if anim_args.resume_from_timestring:
         args.timestring = anim_args.resume_timestring
