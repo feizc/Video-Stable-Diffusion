@@ -14,37 +14,35 @@ In particular, we provide mac and linux environement that can run our method flu
 Download the checkponit of stable diffusion and depth estimation model following [instruments](https://github.com/feizc/Video-Stable-Diffusion/tree/main/models), and put them to the path ```.\models```.
 
 ### 1.2 Runing command
-Run ``` python infer.py``` to get the fancy video with corresponding hyper-parameters. 
+Run ``` python video_infer.py``` to get the fancy video with corresponding hyper-parameters. 
 
 
 ### 1.3 Running scripts
 We also provide a simple scripts to create the video.
 
 ```python
-from pipeline import VideoStableDiffusionPipeline, save_video
+from pipeline import VideoStableDiffusionPipeline
 
-device = "cuda"
 models_path = './models'
+output_path = './outputs'
 
 # load model
-pipe = VideoStableDiffusionPipeline.from_pretrained(models_path)
-pipe= pipe.to(device)
+pipe = VideoStableDiffusion(models_path=models_path, output_path=output_path) 
+
 
 # run pipeline in inference
 prompt = "A beautiful painting of street and people, spring festival"
-move = {'x': 0.5, 'y':0, 'z':0} # move for 3-d
+move = {'x': 0.5, 'y':0, 'z':0} # move speed for 3-d direction
 num_images = 50 # generated number of images in video
-video = pipe([prompt], move=move, num_images=num_images)
 
-# save video
-save_video("./outputs", video)
+pipe([prompt], move=move, num_images=num_images)
 ```
 
 
 
 ## 2.Examples
 
-We provide some generated video examples.
+We list some generated video examples.
 
 https://user-images.githubusercontent.com/37614046/211445726-9a8efa53-a50b-4c45-a642-e7456c952d7d.mp4
 
@@ -53,6 +51,7 @@ https://user-images.githubusercontent.com/37614046/211446043-51dfcf54-69ae-403c-
 
 
 https://user-images.githubusercontent.com/37614046/211446105-e70e4523-01e3-41f1-922d-ed2d8c614900.mp4
+
 
 ## 3.Acknowledgements
 
