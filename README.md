@@ -35,7 +35,7 @@ prompt = "A beautiful painting of street and people, spring festival"
 move = {'x': 0.5, 'y':0, 'z':0} # move speed for 3-d direction
 num_images = 50 # generated number of images in video
 
-pipe([prompt], move=move, num_images=num_images)
+pipe(prompt, move=move, num_images=num_images)
 ```
 
 As the results contains a sequence of images, you can use the script ``` video_formation.py``` to transform images to a video formation. 
