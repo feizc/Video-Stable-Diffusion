@@ -34,7 +34,7 @@ move = {'x': 0.5, 'y':0, 'z':0} # move for 3-d
 video = pipe([prompt], move=move)
 
 # save video
-save_video("squirrel.png", video)
+save_video("./outputs", video)
 ```
 
 
