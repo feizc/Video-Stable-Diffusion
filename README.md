@@ -1,6 +1,7 @@
 # Video-Stable-Diffusion
-Generate consistent videos with stable diffusion.
-Instead of image latents interpolation, we use depth estimation to limit the content structure and inpainting version of stable diffusion to make video keep moving.
+Generate consistent videos with stable diffusion. 
+
+Specifically, instead of image latents interpolation, we use depth estimation to limit the content structure and inpainting version of stable diffusion to make video keep moving.
 
 ## 1.How to use? 
 
