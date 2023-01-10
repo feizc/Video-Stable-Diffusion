@@ -14,7 +14,7 @@ In particular, we provide mac and linux environement that can run video generati
 Download the checkponit of stable diffusion and depth estimation model following [instruments](https://github.com/feizc/Video-Stable-Diffusion/tree/main/models), and put them to the path ```.\models```.
 
 ### 1.2 Runing command
-Run ``` python video_infer.py``` to get the fancy video with corresponding hyper-parameters. 
+Run ```python video_infer.py``` to get the fancy video with corresponding hyper-parameters. 
 
 
 ### 1.3 Running scripts
@@ -38,7 +38,7 @@ num_images = 50 # generated number of images in video
 pipe(prompt, move=move, num_images=num_images)
 ```
 
-As the results contains a sequence of images, you can use the script ``` video_formation.py``` to transform images to a video formation. 
+As the results contains a sequence of images, you can use the script ```video_formation.py``` to transform images to a video formation. 
 
 
 ## 2.Examples
