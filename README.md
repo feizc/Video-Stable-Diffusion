@@ -50,12 +50,13 @@ Note that fps is used to determine the updation ratio.
 
 We list some generated video examples.
 
+prompt: crowds in the street, celebrate china new year, spring festival, digital painting, highly detailed, masterpiece, concept art
 https://user-images.githubusercontent.com/37614046/211445726-9a8efa53-a50b-4c45-a642-e7456c952d7d.mp4
 
-
+prompt: cliff, travel, highly detailed, masterpiece, beautiful painting, 4k
 https://user-images.githubusercontent.com/37614046/211446043-51dfcf54-69ae-403c-8ce9-8d92cddc971d.mp4
 
-
+prompt: portrait of Gypsy woman, big eyes, highly detailed, masterpiece, concept art
 https://user-images.githubusercontent.com/37614046/211446105-e70e4523-01e3-41f1-922d-ed2d8c614900.mp4
 
 
