@@ -72,4 +72,4 @@ https://user-images.githubusercontent.com/37614046/211446105-e70e4523-01e3-41f1-
 
 ## 3.Acknowledgements
 
-This repository is based on [deforum-stable-diffusion](https://github.com/deforum-art/deforum-stable-diffusion) and [huggingface](https://github.com/huggingface/transformers), thanks for their clear code. 
+This repository is based on [deforum-stable-diffusion](https://github.com/deforum-art/deforum-stable-diffusion), [diffusers](https://github.com/huggingface/diffusers), and [huggingface](https://github.com/huggingface/transformers), thanks for their clear code. 
