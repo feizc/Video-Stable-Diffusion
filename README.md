@@ -10,7 +10,7 @@ Instead of image latents interpolation, we use depth estimation to limit the con
 
 ## 1.How it Works? 
 
-This repository compatible with mostly environment equipped with [transformers](https://github.com/huggingface/transformers), and can be runned locally with pre-set ckpt.
+This repository compatible with mostly environment equipped with [diffusers](https://github.com/huggingface/diffusers), and can be runned locally with pre-set ckpt.
 
 In particular, we provide mac and linux environement that can run video generation method fluently as reference.
 
