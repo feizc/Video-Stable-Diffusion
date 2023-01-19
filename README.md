@@ -65,7 +65,7 @@ prompt: a portrait of a girl surrounded by delicate feathers, face, intricate, e
 https://user-images.githubusercontent.com/37614046/213334905-b7c0db57-ae2c-4873-9a00-b4a807bbfff9.mp4
 
 
-prompt: portrait of Gypsy woman, big eyes, highly detailed, masterpiece, concept art 
+prompt: portrait of Gypsy woman, big eyes, highly detailed, masterpiece, realistic, light
 
 https://user-images.githubusercontent.com/37614046/211446105-e70e4523-01e3-41f1-922d-ed2d8c614900.mp4
 
