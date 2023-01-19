@@ -24,6 +24,8 @@ Run ```python video_infer.py``` to get the fancy video with corresponding hyper-
 
 ### 1.3 Running scripts
 We also provide a simple scripts to create the video.
+Note that hyper-parameter 3-D coordinate corresponds the video moving direction and the value denotes the moving speed. 
+
 
 ```python
 from pipeline import VideoStableDiffusionPipeline
@@ -44,7 +46,7 @@ pipe(prompt, move=move, num_images=num_images)
 ```
 
 As the results contains a sequence of images, you can use the script ```video_formation.py``` to transform images to a video formation. 
-Note that fps is used to determine the updation ratio. 
+Note that hyper-parameter fps is used to determine the updation ratio and we find that 20 is suitable. 
 
 
 ## 2.Examples
