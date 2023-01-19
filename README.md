@@ -51,7 +51,7 @@ Note that hyper-parameter fps is used to determine the updation ratio and we fin
 
 ## 2.Examples
 
-We list some generated video examples.
+We list some generated video examples. More interesting prompts can be found in [lexica art](https://lexica.art/).
 
 prompt: crowds in the street, celebrate china new year, spring festival, digital painting, highly detailed, masterpiece, concept art 
 
@@ -60,6 +60,11 @@ https://user-images.githubusercontent.com/37614046/211445726-9a8efa53-a50b-4c45-
 prompt: cliff, travel, highly detailed, masterpiece, beautiful painting, 4k 
 
 https://user-images.githubusercontent.com/37614046/211446043-51dfcf54-69ae-403c-8ce9-8d92cddc971d.mp4
+
+prompt: a portrait of a girl surrounded by delicate feathers, face, intricate, elegant, highly detailed, digital painting, artstation, concept art, smooth, sharp focus, illustration, art by Krenz Cushart and Artem Demura and alphonse mucha
+
+https://user-images.githubusercontent.com/37614046/213334905-b7c0db57-ae2c-4873-9a00-b4a807bbfff9.mp4
+
 
 prompt: portrait of Gypsy woman, big eyes, highly detailed, masterpiece, concept art 
 
