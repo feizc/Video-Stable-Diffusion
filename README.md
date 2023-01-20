@@ -1,7 +1,7 @@
 # Video-Stable-Diffusion
 Generate consistent videos with stable diffusion. 
 
-Instead of image latents interpolation, we use depth estimation to limit the image content structure and inpainting of stable diffusion to make video keep moving.
+Generally, instead of interpolation with image latents, we use depth estimation to limit the image content structure and inpainting of stable diffusion to make video keep moving.
 
 More encouragingly, our method is compatible with [dreambooth](https://dreambooth.github.io/) or [textual inversion](https://textual-inversion.github.io/) to create a personalized video. 
 
