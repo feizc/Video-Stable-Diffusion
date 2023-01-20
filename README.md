@@ -3,10 +3,12 @@ Generate consistent videos with stable diffusion.
 
 Instead of image latents interpolation, we use depth estimation to limit the image content structure and inpainting of stable diffusion to make video keep moving.
 
+More encouragingly, our method is compatible with [dreambooth](https://dreambooth.github.io/) or [textual inversion](https://textual-inversion.github.io/) to create a personalized video. 
+
 * Model collection: https://huggingface.co/feizhengcong/video-stable-diffusion
 * Gradio Web Demo: [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/feizhengcong/video-stable-diffusion) 
 * Diffusers pipeline: [![Diffusers](https://img.shields.io/badge/%F0%9F%A4%97%20Diffusers-blue)](https://github.com/huggingface/diffusers/issues/1962)
-
+* Personalized text-to-video generation
 
 ## 1.How it Works? 
 
