@@ -1,7 +1,7 @@
 # Video-Stable-Diffusion
 Generate consistent videos with stable diffusion. 
 
-Instead of image latents interpolation, we use depth estimation to limit the content structure and inpainting of stable diffusion to make video keep moving.
+Instead of image latents interpolation, we use depth estimation to limit the image content structure and inpainting of stable diffusion to make video keep moving.
 
 * Model collection: https://huggingface.co/feizhengcong/video-stable-diffusion
 * Gradio Web Demo: [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/feizhengcong/video-stable-diffusion) 
